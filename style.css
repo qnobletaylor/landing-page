@@ -39,12 +39,13 @@ body {
     color: #F9FAF8;
     display: flex;
     padding: 80px 150px;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
 }
 
 .hero .text {
     width: 450px;
+    padding-bottom: 20px;
 }
 
 .hero h1 {
@@ -107,7 +108,6 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 158px;
 }
 
@@ -140,6 +140,51 @@ body {
 
 .thor {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: right;
+}
+
+/* Call to Action */
+
+.action {
+    background-color: #F9FAF8;
+    padding: 80px 150px;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    flex: 1;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call h1 {
+    margin-bottom: 0;
+}
+
+.call div {
+    padding-bottom: 8px;
+}
+
+.call button {
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 5px 26px;
+}
+
+.call button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #F9FAF8;
 }
