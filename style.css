@@ -2,3 +2,28 @@ html {
     font-family: roboto, "Courier New", sans-serif;
 }
 
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    font-size: 24px;
+    padding: 18px 80px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.link {
+    padding-left: 22px;
+}
+
+.header a {
+    color: #E5E7EB;
+    text-decoration-line: none;
+    font-size: 18px;
+}
+
+.hero {
+    
+}
