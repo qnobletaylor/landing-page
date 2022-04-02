@@ -5,6 +5,8 @@ html {
     background-color: #1F2937;
 }
 
+/* Header Section */
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -73,3 +75,50 @@ html {
     justify-content: center;
     align-items: center;
 }
+
+/* Card Info Section */
+
+.info {
+    background-color: #F9FAF8;
+    padding-bottom: 80px;
+}
+
+.info h1 {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.container {
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 158px;
+}
+
+.card div {
+    width: 158px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.card img {
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+}
+
+/* Quote */
+
