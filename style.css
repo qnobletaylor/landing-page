@@ -86,9 +86,15 @@ body {
 .himg {
     background-color:#e5e7eb6b;
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 620px;
+}
+
+.himg img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
 }
 
 /* Card Info Section */
@@ -129,10 +135,12 @@ body {
 
 .card img {
     border-radius: 10px;
-    border-color: #3882F6;
+    border-color: #3881f6a8;
     border-style: solid;
     height: 150px;
     width: 150px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Quote */
